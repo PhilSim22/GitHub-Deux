@@ -10,6 +10,7 @@ namespace GitHub_Deux
     {
         static Random randomGenerator = new Random();
 
+
         public static int CreateRandomTable(int lenght, int min, int max)
         {
             int[] Table = new int[lenght];
@@ -19,5 +20,13 @@ namespace GitHub_Deux
             }
             return Table;
         }
+
+	public static void WriteTable(int [] table)
+	{
+		for (int i = 0; i < table.Length; ++i) 
+		{
+			Console.WriteLine (table [i]);
+		}
+	}
     }
 }
