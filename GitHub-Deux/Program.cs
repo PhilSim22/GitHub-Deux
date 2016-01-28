@@ -10,13 +10,6 @@ namespace GitHub_Deux
     {
         static void Main(string[] args)
         {
-            Random randomGen = new Random();
-
-            for(int i = 0; i < 10; ++i)
-            {
-                Console.WriteLine(randomGen.Next(0, 151));
-            }
-            Console.ReadLine();
         }
     }
 }
