@@ -11,7 +11,7 @@ namespace GitHub_Deux
         static void Main(string[] args)
         {
 			Utilitaire.WriteTable (Utilitaire.CreateTable(15,0,150));
-			Console.WriteLine ();
+			Console.ReadLine ();
         }
     }
 }
